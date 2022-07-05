@@ -102,7 +102,7 @@ int main(){
 	return 0;	
 }
 
-//impress„o do menu
+//impress√£o do menu
 void imprimir_menu(){ 
 	printf("|_________________________________________________|\n");
 	printf("|               Verificacao de DNA                |\n");
@@ -174,7 +174,7 @@ void criar_matriz(char ***matriz, int tamanho){
 	printf("Matriz criada com sucesso\n");	
 } 
 
-//impress„o da matriz
+//impress√£o da matriz
 void imprimir_matriz(char ***matriz, int tamanho){
 	printf("Matriz de sequencia de DNA: \n");
 	
@@ -213,7 +213,7 @@ void criar_arquivo_matriz(char ***matriz, int tamanho){
     }
 }
 
-//comparacao para saber se È simio 
+//comparacao para saber se √© simio 
 int is_simian(char ***matriz, int tamanho){
 
 	if(verificar_linhas(matriz, tamanho)==1){
