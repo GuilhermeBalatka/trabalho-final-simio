@@ -293,7 +293,7 @@ int verificar_diagonais_principais(char ***matriz, int tamanho){
 			elemento_anterior=(*matriz)[tamanho-1-i][0];
 			elementos_corretos=1;
 			
-			for(int j=0; j<i+1; j++){
+			for(int j=1; j<i+1; j++){
 				if((*matriz)[tamanho-1-i+j][j]==elemento_anterior){
 					elementos_corretos+=1;
 					if(elementos_corretos==4){
@@ -334,7 +334,7 @@ int verificar_diagonais_secundarias(char ***matriz, int tamanho){
 			elemento_anterior=(*matriz)[i][0];
 			elementos_corretos=1;
 			
-			for(int j=0; j<i+1; j++){
+			for(int j=1; j<i+1; j++){
 				if((*matriz)[i-j][j]==elemento_anterior){
 					elementos_corretos+=1;
 					if(elementos_corretos==4){
