@@ -27,7 +27,7 @@
 
 		diagonal secundária
 		->certo = 6 A T G C T A C A G G G C T T G T T T A G A C G G G C A T C A T C A C T G
-		->errado =6 A T G C G A C A G T G C T T G T T T A G A C G G G C A T C A T C A C T G
+		->errado = 6 A T G C G A C A G T G C T T G T T T A G A C G G G C A T C A T C A C T G
 	
 	Exemplo de diretório onde arquivo ficará salvo
 		"C:\\Users\\gui_b\\Desktop\\algoritmos\\arquivo\\arquivo.txt"
